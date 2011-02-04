@@ -1,0 +1,3 @@
+module CukePuke
+  # Your code goes here...
+end
