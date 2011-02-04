@@ -1,1 +1,1 @@
-default: --format 'Timestamped::HtmlFormatter' --out cuke.html --format 'Timestamped::PrettyFormatter' the.feature
+default: --format 'CukePuke::Formatter' --out /dev/null --format pretty the.feature

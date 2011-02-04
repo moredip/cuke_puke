@@ -1,10 +1,8 @@
 Feature: demonstration
 
-Scenario: The First
- Given I wait 5 seconds
-
-Scenario: The Second
+Scenario: Demo 
  Given I wait 0.7 seconds
- Given I wait 3 seconds
+ And I wait 3 seconds
+ Then I wait 0.1 seconds
+ And I wait 0.1 seconds
 
-Scenario: The Third
